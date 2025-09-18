@@ -32,7 +32,7 @@
 .idea/**/libraries
 
 # CPH
-*.cph
+*.cph/
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -762,3 +762,4 @@ FodyWeavers.xsd
 
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudio,visualstudiocode,java,pycharm+all,intellij+all,notepadpp
+
