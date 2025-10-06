@@ -1,6 +1,6 @@
 | 이번주 풀이 문제🧩  |                   |                |
 |:-------------:|:-------------------:|:-------------------:|
-| **1.** [2*n타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) | **2.** [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | **3.** [문제이름](링크) |
+| **1.** [2*n타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) | **2.** [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | **3.** [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |
 | **4.** [문제이름](링크) | **5.** [문제이름](링크) | **6.** [문제이름](링크) |
 | **7.** [문제이름](링크) | **8.** [문제이름](링크) | **9.** [문제이름](링크) |
 |  **10.** [문제이름](링크) | **11.** [문제이름](링크) | **12.** [문제이름](링크) |
@@ -24,5 +24,14 @@
 
 ### 🤔 후기
 날짜 계산을 할 때 Date 타입의 값끼리 비교가 가능하다는 걸 까먹고 있어서 좀 해멨다..
+
+## [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844)
+
+### 💡 아이디어 / 접근법 
+기본적인 미로찾기 문제로 BFS, DFS 둘 다 가능한 문제로 보였음 하지만 효율적인 부분과 최단 거리를 찾는 문제이기 때문에 BFS로 문제를 풀기로 하였음
+
+### 🤔 후기
+기본적인 BFS 문제로 BFS 다시 복기하는 데 도움이 됐던 문제 같음
+
 
 ---
