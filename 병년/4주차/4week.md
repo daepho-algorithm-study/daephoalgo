@@ -1,7 +1,7 @@
 | 이번주 풀이 문제🧩  |                   |                |
 |:-------------:|:-------------------:|:-------------------:|
 | **1.** [2*n타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) | **2.** [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | **3.** [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |
-| **4.** [프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679) | **5.** [문제이름](링크) | **6.** [문제이름](링크) |
+| **4.** [프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679) | **5.** [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | **6.** [문제이름](링크) |
 | **7.** [문제이름](링크) | **8.** [문제이름](링크) | **9.** [문제이름](링크) |
 |  **10.** [문제이름](링크) | **11.** [문제이름](링크) | **12.** [문제이름](링크) |
 
@@ -43,5 +43,13 @@
 
 ### 🤔 후기
 엄청 어려운 문제는 아니었다고 생각해서 바로 풀려고 했는데 생각보다 신경 쓸 게 좀 있었던 거 같다. 처음에 상하좌우 인접 판별로 잘못 이해한 것도 그렇고 0인 경우에 어떻게 중력 처리를 할 것인 지에 대한 부분을 생각하는 것이 좀..ㅋ 그리고 문제 제대로 좀 읽자..
+
+## [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
+
+### 💡 아이디어 / 접근법 
+해시 맵에 key-value 값으로 넣고 몇 개 나왔는지 계산하기
+
+### 🤔 후기
+실제로 그렇게 풀렸다..
 
 ---
