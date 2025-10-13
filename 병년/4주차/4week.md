@@ -1,7 +1,7 @@
 | 이번주 풀이 문제🧩  |                   |                |
 |:-------------:|:-------------------:|:-------------------:|
 | **1.** [2*n타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) | **2.** [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | **3.** [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |
-| **4.** [프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679) | **5.** [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | **6.** [문제이름](링크) |
+| **4.** [프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679) | **5.** [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | **6.** [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) |
 | **7.** [문제이름](링크) | **8.** [문제이름](링크) | **9.** [문제이름](링크) |
 |  **10.** [문제이름](링크) | **11.** [문제이름](링크) | **12.** [문제이름](링크) |
 
@@ -51,5 +51,13 @@
 
 ### 🤔 후기
 실제로 그렇게 풀렸다..
+
+## [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061)
+
+### 💡 아이디어 / 접근법 
+세로로 순회하고 인형 뽑고 스택에 있으면 터뜨리고 결과 값에 2개씩 누적하면 될 거 같다
+
+### 🤔 후기
+정답이다.. 그냥 쉬운 스택 문제 였던 거 같음
 
 ---
