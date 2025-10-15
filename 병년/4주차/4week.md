@@ -2,7 +2,7 @@
 |:-------------:|:-------------------:|:-------------------:|
 | **1.** [2*n타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) | **2.** [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | **3.** [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |
 | **4.** [프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679) | **5.** [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | **6.** [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) |
-| **7.** [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | **8.** [문제이름](링크) | **9.** [문제이름](링크) |
+| **7.** [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | **8.** [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952) | **9.** [문제이름](링크) |
 |  **10.** [문제이름](링크) | **11.** [문제이름](링크) | **12.** [문제이름](링크) |
 
 ---
@@ -67,5 +67,13 @@
 
 ### 🤔 후기
 처음에 단순 조건문이랑 반복문을 통해서 풀다가 너무 복잡하고 귀찮아서 정규 표현식 찾아서 써봤는데 신세계임..
+
+## [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952)
+
+### 💡 아이디어 / 접근법 
+가로, 세로, 대각선에 이미 말이 존재하는 지 판별하고 백트래킹을 이용하여 문제를 푸는 유명한 N-Queen 문제..
+
+### 🤔 후기
+대각선 판별이 조금 어려웠던 것 같고 굳이 2차원 배열로 탐색을 안해도 되는 문제였는데 좀 오래걸린 것 같음
 
 ---
