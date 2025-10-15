@@ -2,8 +2,8 @@
 |:-------------:|:-------------------:|:-------------------:|
 | **1.** [2*n타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12900) | **2.** [개인정보 수집 유효기간](https://school.programmers.co.kr/learn/courses/30/lessons/150370) | **3.** [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |
 | **4.** [프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679) | **5.** [의상](https://school.programmers.co.kr/learn/courses/30/lessons/42578) | **6.** [크레인 인형뽑기 게임](https://school.programmers.co.kr/learn/courses/30/lessons/64061) |
-| **7.** [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | **8.** [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952) | **9.** [문제이름](링크) |
-|  **10.** [문제이름](링크) | **11.** [문제이름](링크) | **12.** [문제이름](링크) |
+| **7.** [신규 아이디 추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | **8.** [N-Queen](https://school.programmers.co.kr/learn/courses/30/lessons/12952) | **9.** [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) |
+|  **10.** [스킬트리](https://school.programmers.co.kr/learn/courses/30/lessons/49993) | **11.** [문제이름](링크) | **12.** [문제이름](링크) |
 
 ---
 
