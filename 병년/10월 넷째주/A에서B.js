@@ -1,18 +1,13 @@
 const fs = require("fs");
 const path = require("path");
 const input = fs
-  .readFileSync(
-    process.platform === "linux"
-      ? "/dev/stdin"
-      : path.join(__dirname, "input.txt")
-  )
+  .readFileSync(process.platform === "linux" ? "/dev/stdin" : path.join(__dirname, "input.txt"))
   .toString()
   .trim()
   .split("\n");
 
 const solution = (input) => {
   const [A, B] = input[0].split(" ").map(Number);
-  const visited = new Set();
   const limit = 1000000000;
 
   const bfs = () => {
