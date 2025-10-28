@@ -1,6 +1,6 @@
 | 이번주 풀이 문제🧩  |                   |                |
 |:-------------:|:-------------------:|:-------------------:|
-| **1.** [미로 탐색](https://www.acmicpc.net/problem/2178) | **2.** [숨바꼭질](https://www.acmicpc.net/problem/1697) | **3.** [토마토](https://www.acmicpc.net/problem/7569) | **4.** [A -> B](https://www.acmicpc.net/problem/16953) |
+| **1.** [미로 탐색](https://www.acmicpc.net/problem/2178) | **2.** [숨바꼭질](https://www.acmicpc.net/problem/1697) | **3.** [토마토](https://www.acmicpc.net/problem/7569) | **4.** [A -> B](https://www.acmicpc.net/problem/16953) | **5.** [스타트링크](https://www.acmicpc.net/problem/5014) |
 ---
 
 # 🧩 문제
@@ -48,5 +48,16 @@
 
 ### 🤔 후기
 그냥 쉬웠음..
+
+**5.** [스타트링크](https://www.acmicpc.net/problem/5014)
+
+### 💡 아이디어 / 접근법 
+1. 시작점을 S로 고정
+2. BFS 를 통해 S 에서 U를 더할 건지 D를 뺄 건지 두 가지의 경우 정의
+3. 시작점과 계산이 된 좌표 방문 체크
+4. 목표층에 도달하면 시간 반환 그렇지 못하면 오류 문구 반환
+
+### 🤔 후기
+숨바꼭질 비슷한 시리즈로 BFS 감 잡기 하고 있는 중인데 아주 만족함..Good..
 
 ---
