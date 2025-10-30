@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.dbclient-js": "javascript",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "tuple": "cpp"
+    }
+}
