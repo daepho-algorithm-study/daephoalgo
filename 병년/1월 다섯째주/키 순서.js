@@ -29,14 +29,28 @@ const solution = (input) => {
   // 결과 값
   let answer = 0;
 
-  const dfs = (x, graph, visited) => {
-    // 다음 경로 체크
-    for (let nx of graph[x]) {
-      // 아직 방문 안한 노드면
-      if (!visited[nx]) {
-        // 방문 체크 후 더 들어가기
-        visited[nx] = true;
-        dfs(nx, graph, visited);
+  //   const dfs = (x, graph, visited) => {
+  //     // 다음 경로 체크
+  //     for (let nx of graph[x]) {
+  //       // 아직 방문 안한 노드면
+  //       if (!visited[nx]) {
+  //         // 방문 체크 후 더 들어가기
+  //         visited[nx] = true;
+  //         dfs(nx, graph, visited);
+  //       }
+  //     }
+  //   };
+
+  const bfs = (x, graph, visited) => {
+    let head = 0;
+    let queue = [x];
+    while (head < queue.length) {
+      let next = queue[head++];
+      for (let nx of graph[next]) {
+        if (!visited[nx]) {
+          visited[nx] = true;
+          queue.push(nx);
+        }
       }
     }
   };
@@ -54,8 +68,8 @@ const solution = (input) => {
     visited2[i] = true;
 
     // 정방향, 역방향에 dfs 탐색
-    dfs(i, graph, visited1);
-    dfs(i, revers, visited2);
+    bfs(i, graph, visited1);
+    bfs(i, revers, visited2);
 
     // 방문 체크를 통해 나와 키 비교가 가능한 사람 존재하면 cnt 추가
     for (let j = 1; j <= N; j++) {
