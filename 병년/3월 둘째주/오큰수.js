@@ -8,7 +8,7 @@ const input = fs
   )
   .toString()
   .trim()
-  .split("\n");오
+  .split("\n");
 
 const solution = (input) => {
   let idx = 0;
