@@ -1,0 +1,47 @@
+const fs = require("fs");
+const path = require("path");
+const input = fs
+  .readFileSync(
+    process.platform === "linux"
+      ? "/dev/stdin"
+      : path.join(__dirname, "input.txt"),
+  )
+  .toString()
+  .trim()
+  .split("\n");
+
+const solution = (input) => {
+  let idx = 0;
+  const N = Number(input[idx++]);
+  const M = Number(input[idx++]);
+
+  const dist = Array.from({ length: N }, () => Array(N).fill(Infinity));
+  for (let i = 0; i < N; i++) {
+    dist[i][i] = 0;
+  }
+
+  for (let i = 0; i < M; i++) {
+    const [a, b] = input[idx++].split(" ").map(Number);
+    dist[a - 1][b - 1] = 1;
+  }
+  let answer = Array(N).fill(0);
+  for (let k = 0; k < N; k++) {
+    for (let i = 0; i < N; i++) {
+      for (let j = 0; j < N; j++) {
+        dist[i][j] = Math.min(dist[i][j], dist[i][k] + dist[k][j]);
+      }
+    }
+  }
+
+  for (let i = 0; i < N; i++) {
+    let cnt = 0;
+    for (let j = 0; j < N; j++) {
+      if (dist[i][j] === Infinity && dist[j][i] === Infinity) cnt++;
+    }
+    answer[i] = cnt;
+  }
+  for (let i = 0; i < N; i++) {
+    console.log(answer[i]);
+  }
+};
+solution(input);
